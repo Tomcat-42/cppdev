@@ -1,2 +1,0 @@
-- name: Container Builder
-  uses: snapserv/action-container-builder@v0.2.3
