@@ -66,7 +66,7 @@ COPY --from=builder \
     ./
 ```
 
-# CI/CD
+## CI/CD
 
 This repo uses [Github Actions](https://docs.github.com/en/actions) for
 automation of the modification => publishing cycle.
