@@ -23,6 +23,13 @@
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Tomcat-42/cppdev?style=social">
 </div>
 
+<!-- TOC start -->
+  * [Installation](#installation)
+  * [Usage example](#usage-example)
+- [CI/CD](#cicd)
+<!-- TOC end -->
+
+<!-- TOC --><a name="installation"></a>
 ## Installation
 
 This container is available on
@@ -34,6 +41,7 @@ For installing it:
 docker pull tomcat0x42/cppdev
 ```
 
+<!-- TOC --><a name="usage-example"></a>
 ## Usage example
 
 You can use this container as a multi-stage build as follows:
@@ -66,7 +74,8 @@ COPY --from=builder \
     ./
 ```
 
-## CI/CD
+<!-- TOC --><a name="cicd"></a>
+# CI/CD
 
 This repo uses [Github Actions](https://docs.github.com/en/actions) for
 automation of the modification => publishing cycle.
